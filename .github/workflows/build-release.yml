@@ -19,8 +19,8 @@ jobs:
       matrix:
         include:
           - arch: ath79_generic
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.4/targets/ath79/generic
-            sdk_name: -sdk-23.05.4-ath79-generic_
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.3/targets/ath79/generic
+            sdk_name: -sdk-24.10.3-ath79-generic_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
